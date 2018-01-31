@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<!-- All the links to other scripts -->
+	<head>
+		<link rel="stylesheet" type="text/css" href="../CSS/slide.css">
+    	<link rel="stylesheet" type="text/css" href="../CSS/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/fancytx.css>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>FBLA</title>
+        <a href="index.html" style="text-decoration:none">
+        
+        </a>
+	</head>
+
+	<!-- Top Navigation Bar UI -->
+        <header>
+            <div class="container">
+            <div id="branding">
+            <a href="index.html">
+                <h1><span class="highlight">FB</span>LA</h1>
+                </a>
+            </div>
+            <nav>
+            <ul>
+                <li class ="current"><a href="index.html">Home</a></li>
+                <li><a href="imagedt.html">LEAD Program</a></li>
+                <li><a href="game.html">Snake Game</a></li>
+            </ul>
+            </nav>
+            </div>
+            </header>
+			
+			
+        <!-- Body and Slide Show Container -->   
+			<body>
+			
+			<div class="opening">
+			<h1>Welcome</h1>
+			</div>
+			
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				  <div class="numbertext">1 / 3</div>
+				  <img src="../Images/Business.jpg" style="width:100%">
+				  <div class="text"></div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">2 / 3</div>
+				  <img src="../Images/Apple.jpg" style="width:100%">
+				  <div class="text">FBLA stands for...</div>
+				</div>
+
+				<div class="mySlides fade">
+				  <div class="numbertext">3 / 3</div>
+				  <a href="game.html"><img src="../Images/download.png" style="width:100%"></a>
+				  <div class="text">Try to get the new high score to win the state competition for FBLA</div>
+				</div>
+				</div>
+
+				<!-- Content of the Web Page -->
+				
+				
+				<p>This website was hand coded by William Kyle Greer it has taken a total of 5 hours to make this website look as good as it does.</p>
+				
+	<!-- Java Script Script -->
+		<script>
+				var slideIndex = 0;
+				showSlides(slideIndex);
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none"; 
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1} 
+			slides[slideIndex-1].style.display = "block"; 
+			setTimeout(showSlides, 7000); // Change image every 7 seconds
+		}
+		
+		</script>
+
+		<!-- Footer -->
+			<center>
+			<footer>Copyright 2018 William Kyle Greer</footer>
+			</center>
+	    </body>
+</html>
