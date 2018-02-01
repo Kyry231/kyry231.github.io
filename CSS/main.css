@@ -1,10 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
 body {
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
-	background-image: url("../Images/orange.jpg");
+	background-image: url("../Images/orange1.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -83,4 +87,25 @@ footer {
 	min-height: 50px;
 	border-top: #e8491d 3px solid;
 }
-
+.about{
+	border-top: #e8491d 5px solid;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: left;
+	padding: 1px 20px;
+}
+.atext{
+	background-color: #fff;
+	padding: 5px 10px;
+	color: #e8491d;
+	font-weight: bold;
+	display: inline-block;
+	max-width: 500px;
+	border-radius: 15px;
+}
+.slide {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-align: center;
+}

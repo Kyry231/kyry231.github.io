@@ -53,12 +53,11 @@ img {vertical-align: middle;}
 }
 
 .opening{
-  padding: 250px 20px;
   text-align: center;
   background: black;
-  min-height: 700px;
+  padding: 300px 2px;
   color: white;
-  
+  vertical-align: middle;
 }
 
 p {
